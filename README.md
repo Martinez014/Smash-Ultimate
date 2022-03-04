@@ -1,6 +1,6 @@
 # Smash-Ultimate
 Sitio creado con la intencion de promocionar el videojuego: Super Smash Bros. Ultimate.
-
+Editado por: Edmilson
 Creado por:
 III año - Desarrollo de Software CDB
 
