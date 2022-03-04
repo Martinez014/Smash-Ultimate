@@ -1,7 +1,7 @@
 # Smash-Ultimate
 Sitio creado con la intencion de promocionar el videojuego: Super Smash Bros. Ultimate.
 
-Creado por:
+Creado por: Edmilson
 III año - Desarrollo de Software CDB
 
 Oscar Alexander Guevara Rodríguez #14
