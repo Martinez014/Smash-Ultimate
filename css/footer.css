@@ -1,0 +1,69 @@
+/*  COPIAR TODO   */
+* {
+    margin:0;
+    padding:0;
+} 
+::-webkit-scrollbar{ /* Para ocultar la scrollbar */
+    display: none;
+}
+footer {
+    width: 100%;
+    height: 43vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("../img/Intento 4.jpg");
+    display: flex;
+    bottom:0;
+    color: white;
+}  
+footer #info {
+    position:absolute;
+    overflow:hidden;
+    width: 100%;
+    height: 43vh;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.5s;
+}
+footer:hover #info {
+    opacity:1;
+}  
+footer table {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 1.4%;
+    transition: margin-left 0.6s;
+}
+footer:hover table {
+    margin-left: 30%;
+}  
+footer table tr td{ /* Las celdas "Inicio", "Diversion Pura */
+    font-size: 2vw;
+    background-color: blue;
+    font-weight: bold;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+footer table tr td:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+}
+footer table th{ /* "Paginas Relacionadas" */
+    font-size: 2.5vw;
+}
+footer #headline {  /* "Smash Bros Ultimate" */
+    font-size: 4vw;
+    font-weight: bold;
+    margin-bottom: 0.5ex;
+    transition: margin-left 0.5s;
+}  
+footer td a {
+    text-decoration: none;
+    color: inherit;
+}
+footer td div.url{
+    width: 20vw;
+    padding: 3% 0%;
+}

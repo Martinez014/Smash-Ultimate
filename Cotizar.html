@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <link rel="stylesheet" href="css/cotizar.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/navegador.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/footer.css" type="text/css" media="all" />
+        <script type="text/javascript" src="js/JSCotizar.js"></script>
+        <link rel="icon" href="img/logo2.png">
+        <title>Cotizar</title>
+	</head>
+	<body>
+        <nav>
+            <table>
+              <td id="logo"><a href="Index.html"><div class="nav_link"><img src="img/logo2.png"></div></a></td>
+              <td><a href="Diversion/Diversion.html"><div class="nav_link">Diversión Pura</div></a></td>
+              <td><a href="Competitivo.html"><div class="nav_link">Competitivo</div></a></td>
+              <td><a href="Cotizar.html"><div class="nav_link">Cotizar</div></a></td>    </tr>
+          </table>
+        </nav>
+        <header>
+          <h1>¿Interesado en comprarlo?</h1>
+      </header>
+        <section>
+            <h2> ¿Te ha encantado el juego tanto como a nosotros? <br>
+                    Pues perfecto, te ayudaremos a cotizar, para cuando quieras comprarlo: </h2>
+            <article>
+              <img id="Cartucho" src="img/Cartuchos.png" alt="Smash Bros. Ultimate Version Fisica">
+              <div id="Forms"> 
+                <p> <b>Titulo: </b>Super Smash Bros Ultimate</p>
+                <p> <b>Lanzado en: </b>Diciembre de 2018</p>
+                <p> <b>Precio: </b>59.99 USD</p>
+
+                <form autocomplete="off"> 
+                  Nombre: &nbsp;&nbsp; <input type="text" placeholder="Nombre" id="Nombre" required><br>
+                  Correo: &nbsp; &nbsp; &nbsp;<input type="email" placeholder="Correo" id="Correo" required><br>
+                  Unidades: &nbsp;<input type="number" placeholder="Cantidad" id="Cantidad" required><br>
+                  <button type="button" onclick="mostrarResultados()"> Empezar a Cotizar </button>
+              </form>
+              </div>
+
+              <div id="Resultados">
+              </div>
+
+            </article>
+        </section>
+
+        <footer>
+            <div id="info">
+              <div id="detalles">
+                <table>
+                  <caption id="headline">Smash Bros Ultimate</caption>
+                  <tr><th class="titulo" colspan="2">Páginas Relacionadas:</th></tr>
+                  <tr><td><a href="Index.html"><div class="url">Inicio</div></a></td><td><a href="Diversion/Diversion.html"><div class="url">Diversión Pura</div></a></td></tr>
+                  <tr><td><a href="Competitivo.html"><div class="url">Competitivo</div></a></td><td><a href="Cotizar.html"><div class="url">Cotizar</div></a></td></tr>
+               </table>
+              </div>
+            </div>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;    
+}
+body{
+    background-color: #1a2a48;
+    background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23041639' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+header{
+    width: 100%;
+    max-height: 17rem;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("../img/banner4.png");
+    color: white;
+    display: flex;
+
+}
+header h1 {
+    padding: 7vw;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.8);
+    transition: 0.3s;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+}
+header h1:hover{
+    background-color: rgba(31, 31, 31, 0.6);
+}  
+section {
+    border: 4px solid #5b94ff;
+    margin: 30px auto;
+    padding: 30px;
+    width: 75%;
+    background-color: #1f5c75;
+    box-shadow: #042346 8px 8px 6px;
+    transition: all 1s;
+    border-radius: 5%;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3vw;
+}
+#Cartucho {
+    width: 30vw;
+}
+#Cartucho + div{
+    float: right;
+    font-size: 2.5vw;
+    text-align: left;
+    line-height: 4.5vw;
+    width: 42vw;
+    color: white;
+}
+p#title{
+    font-weight: bold;
+}
+div#Forms form{
+    font-weight: bold;
+}
+div#Forms input{
+    background-color: white;
+    height: 2.3vw;
+    width: 25vw;
+    padding-left: 0.5vw;
+    color: rgb(25, 25, 112);
+    font-size: 1.5vw;
+    border: 2px solid #00008B;
+    font-weight: bold;
+}
+div#Forms input::placeholder{
+    color: rgba(25, 25, 112, 0.6);
+    font-size: 1.5vw;
+}
+section form button{
+    width: fit-content;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-size: 1.5vw;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+section form button:hover{
+    background-color: #00008B;
+    transform: scale(1.1);
+}
+section div#Resultados {
+    background-color: #00008B;
+    color: white;
+    box-shadow: #008080 8px 8px 6px;
+    transition: all 1s;
+    padding-top: 0;
+    font-size: 3vw;
+    width: 70%;
+    margin: auto;
+}
+a#Tienda {
+    margin: 4vw 15% 0 15%;
+    padding: 1vw;
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    box-shadow: #ADD8E6 4px 4px 3px;;
+}
+a#Tienda:hover {
+    background-color: #008080;
+}

@@ -1,0 +1,313 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif; 
+}
+
+body{
+    background-color: #0c0606;
+}
+a{
+    text-decoration: none; /* Quitar subrayado */
+}
+li{
+    list-style: none; 
+}
+
+img{
+    max-width: 100%;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+h1, h2, h3{
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+section{
+    display: block;
+}
+ /*Envoltura general*/
+
+.wrapper{
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3vh;
+}
+
+/* Estilos sección principal  */
+
+.principal h1{ /*Letras inicio */
+    margin: 0 0 20px 0;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.principal h2{/* Sub texto */
+    text-align: justify;
+    color: rgb(255, 217, 0);
+
+}
+
+.principal{/* Fondo 1*/
+    width: 100%;
+    position: relative;
+    padding: 120px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(rgba(5, 7, 12, 0.205), rgba(5, 7, 12, 0.205)), url(../img/eje6.jpeg);
+    flex-wrap: wrap-reverse;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 12%;
+    
+}
+
+.principal div:nth-last-child(2){ /* Estilos ultimos dos div de la seccion principal */
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 0.5%;
+}
+.video video{ /* Video usa 100% del tamaño */
+    width: 100%;
+}
+
+.principal .info-principal{ /*Contenedor de texto y botón */
+    width: 37.5em;
+}
+.st-wrapper{/*Contenedor de video y texto */
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+/* Botón inicio */
+
+.boton-principal{
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 2%;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3.1em;
+    color: #fff;
+    background: #0000FF;
+}
+
+.boton-principal:hover{ /*Hover del boton */
+    background: #0000CD;
+
+}
+
+/* Estilos seccion 1 */
+
+.general{ /* Estilos de la sección */
+    padding: 2.5em 0 0 0; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contenedor{ /* Contenedor general de la sección */
+    width: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0 0.2em 0.2em 0.2em;
+}
+
+.titulogame h2{ /* Estilos h2  */
+    font-size: 0.95em;
+    color: rgb(0, 0, 255);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulogame h2::after{ /* Estilos línea (después del h2) */
+    display: inline-block;
+    content: "";
+    width: 6em;
+    height: 0.09em;
+    background: rgb(255, 0, 0);
+    margin: 1px 10px;
+}
+
+.info-juego{ /*Texto después del titulo del juego */
+    font-size: 1.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text-info{ /*Contenedor imagen e info */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{ /* Margen entre contenedores */
+    margin: 0 auto;
+}
+.texto{/* Texto a la par de la imagen */
+    padding-left: 1em;
+    font-size: 2em;
+    padding-top: 3%;
+    padding-right: 2.5em;
+    justify-content: center;
+}
+/* Estilos Sección 2 */
+
+.contenedor .benefit .icono{ /* Estilos de los ícono */
+    display: flex;
+    float: left;
+    width: 64px;
+    height: 64px;
+    border: 2px solid;
+    border-radius: 1.87em;
+}
+
+.contenedor .benefit{ /*Contenedor de CADA beneficio del juego */
+    margin-top: 2.8em;
+}
+
+.contenedor .benefit h3{ /*Título de cada ventaja */
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-left: 5em;
+}
+
+.contenedor .benefit p{/*Texto de cada ventaja */
+    line-height: 1.35em;/* Distancia entre lineas */
+    margin-left: 5.62em;
+    font-size: 1.1em;
+}
+
+/*Inicio sección final */
+
+.general1{/*Estilos de la sección */
+    background: linear-gradient(rgba(5, 7, 12, 0.205), rgba(5, 7, 12, 0.377)), url(../img/slider1.jpg);
+    width: 100%;
+    margin-top: 1.25em;
+    height: 100vh; /*Todo lo alto de la pantalla */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.texto1{/*Contenedor texto y boton dentro de la imagen */
+    text-align: center;
+    padding-top: 14%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.texto1 p{ /*Estilos del texto */
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.boton-final{ /*Estilos botón final */
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 2%;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3.1em;
+    color: #fff;
+    background: #0000FF;
+}
+
+.boton-final:hover{ /*Hover del boton */
+background:#0000CD ;
+}
+
+  /*Transcisiones */
+.icono img:hover{
+    transition: all 0.55s;
+    transform: rotateY(360deg);
+}
+
+/* Media queries dependiendo de los tamaños de pantalla */
+
+@media (max-width: 1116px){
+    .video {
+        width:  31.25em;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 992px){
+    .responsive {
+        flex: 0 0 auto;
+    }
+}
+@media (min-width: 1117px) {
+    .video{
+        width: 28.1em;
+        margin: 0 auto;
+    }
+    }
+
+@media (min-width: 1500px){
+    .wrapper, .st-wrapper{
+        max-width: 980px
+        }
+    .general1{
+        height: 100vh;
+        }
+    }
+@media (max-width: 1130px){
+    .st-wrapper{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        }
+    }
+@media (max-width: 600px) {
+    .video video{
+        width: 100%;
+    
+        }
+    .principal h1{
+        font-size: 28px;
+        line-height: 2em;
+        margin-bottom: 10px;
+        }
+    .principal{
+        background-size: cover;
+            }
+    .texto1{
+        padding-top: 50%;
+        }
+      }
+@media (min-width: 1200px){
+    .texto{
+        flex: 0 0 auto;
+        width: 60%;
+        }
+        }
+@media (max-width: 1199px){
+    .texto{
+        flex: 0 0 auto;
+        width: 100%;
+        font-size: 1.2em;
+        margin-top: 1.25em;
+            }
+            }
+div.benefit a{
+    text-decoration: none;
+    color: blue;
+}
+

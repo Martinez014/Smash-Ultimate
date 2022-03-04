@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav { /* El contenedor del navegador */
+    right: 0;
+    position: fixed;
+    font-size: 1.7vw;
+    z-index: 2;
+}
+nav table{ /* La tabla del nav */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+nav td { /* Todas las celdas del nav */
+    color: white;
+    overflow: hidden;   
+    border: 5px solid #00008B;
+    border-right: hidden;
+    border-top:hidden;
+    font-weight: bold;
+    background-color: #0000FF;
+}
+nav td:hover { /* Cuando hover las celdas */
+    background-color: #0000CD;
+}
+nav td a{ /* Todos los URL del nav */
+    color: white;
+    text-decoration: none;
+}
+nav table td:not(td#logo) div{ /* Todos los divs, menos el primero */
+    text-align: center;
+    width: 12vw;
+    height: 5vh;
+    padding: 1.5vh 0.3vw;
+}
+nav table td:first-child{ /* El primer td, el de la imagen */
+    width: 7vw;
+    height: 4vh;
+    text-align: center;  
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 15px; 
+}
+nav table img { /* La img */
+    width: 5vw;
+    height: 7vh;
+    padding: 0% 3%;
+}
